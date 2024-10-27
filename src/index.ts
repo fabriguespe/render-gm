@@ -28,5 +28,10 @@ run(async (context: HandlerContext) => {
   );
   await context.send(`https://coin-toss.xyz/frames/toss/510`);
   await context.reply(`16`);
-  await context.send(`gm`);
+  await context.send(
+    `https://base-frame-lyart.vercel.app/transaction?transaction_type=swap&amount=1&token_from=eth&token_to=usdc`
+  );
+  await context.reply(`17`);
+  await context.send(`https://ens.steer.fun/frames/manage?name=vitalik.eth`);
+  await context.reply(`18`);
 });
