@@ -34,4 +34,8 @@ run(async (context: HandlerContext) => {
   await context.reply(`17`);
   await context.send(`https://ens.steer.fun/frames/manage?name=vitalik.eth`);
   await context.reply(`18`);
+  await context.send(`https://frame.brianknows.org/`);
+  await context.reply(`19`);
+  await context.send(`https://slot-machine-frame.vercel.app/`);
+  await context.reply(`20`);
 });
